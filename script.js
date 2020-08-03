@@ -30,6 +30,9 @@ else
 
 if (randomno > randomno1)
   document.querySelector("h1").innerHTML = "player 1 wins!"
-else {
-    document.querySelector("h1").innerHTML = "player 2 wins!"
+else if(randomno === randomno1){
+    document.querySelector("h1").innerHTML = "Draw!"
+}
+else{
+  document.querySelector("h1").innerHTML = "Player 2 wins!"
 }
